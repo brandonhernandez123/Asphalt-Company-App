@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  background-color: darkorange;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(https://thumbs.dreamstime.com/b/asphalt-road-backgrounds-yellow-dividing-lines-asphalt-background-directly-above-180950887.jpg);
+
 }
 
 
@@ -57,13 +58,15 @@ color: white;
 
 #section2 {
   min-height: 80vh;
+  height: 500px !important;
   /* margin-top: px; */
 
 }
 
 #section3{
-  min-height: 80vh;
+  min-height: 300vh;
   margin-top: -250px;
+  height: 1000px;
 }
 
 .landing {
@@ -80,7 +83,19 @@ color: white;
 }
 
 .services {
-  background: #874400;
-background: linear-gradient(to top, #874400 0%, #5C5C5C 100%);
+  background: #FFB76B;
+background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%);
+margin-top: -250px;
 
+
+}
+
+.aboutimage {
+  height: 300px;
+  width: 500px;
+}
+
+.serviceimage {
+  height: 75%;
+  width: 75%;
 }

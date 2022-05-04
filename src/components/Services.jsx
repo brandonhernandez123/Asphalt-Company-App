@@ -10,7 +10,9 @@ const Services = () => {
             <Container fluid>
                 <Row md={4}>
                     <Col>
-                    <Image fluid roundedCircle src='https://media.istockphoto.com/photos/worker-levelling-fresh-asphalt-on-a-road-construction-site-picture-id512293553?k=20&m=512293553&s=612x612&w=0&h=oytNjgNpCo5nsw1vsYwh8wmcrTJSA9QsDXN2_v23HF8=' />
+                    <h6>Asphalt Service</h6>
+                    <Image fluid className='serviceimage'roundedCircle src='https://media.istockphoto.com/photos/worker-levelling-fresh-asphalt-on-a-road-construction-site-picture-id512293553?k=20&m=512293553&s=612x612&w=0&h=oytNjgNpCo5nsw1vsYwh8wmcrTJSA9QsDXN2_v23HF8=' />
+                    
                     </Col>
                     <Col xs={6}>2 of 3</Col>
                      <Col>3 of 3</Col>

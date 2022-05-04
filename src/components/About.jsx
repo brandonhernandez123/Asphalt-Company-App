@@ -7,7 +7,7 @@ const About = () => {
             <Container fluid>
   <Row>
     <Col>
-        <Image  roundedCircle fluid src='https://media.istockphoto.com/photos/mans-legs-on-newly-laid-asphalt-during-road-construction-picture-id469577715?k=20&m=469577715&s=612x612&w=0&h=BWxZw4hJG3zJm2XhTBrDrYq9PiIRQnbBk6yT4ec8cJo=' />
+        <Image    className='aboutimage' fluid src='https://media.istockphoto.com/photos/mans-legs-on-newly-laid-asphalt-during-road-construction-picture-id469577715?k=20&m=469577715&s=612x612&w=0&h=BWxZw4hJG3zJm2XhTBrDrYq9PiIRQnbBk6yT4ec8cJo=' />
         
     </Col>
     <Col fluid><h2 className='aboutus'>ABOUT US</h2>
