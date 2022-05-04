@@ -1,38 +1,86 @@
 .App {
   text-align: center;
+  background-color: darkorange;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.App > div {
+  min-height: 80vh;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav  {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(https://thumbs.dreamstime.com/b/asphalt-road-backgrounds-yellow-dividing-lines-asphalt-background-directly-above-180950887.jpg);
+  color: white !important;
+  position: sticky top !important;
+  height: 100px !important;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navlink {
+  color: white !important;
+}
+.navlink:hover {
+  background-color: orange;
+  color: black !important;
+}
+
+#section1 {
+  background-image: url(./images/asphalt.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  /* min-height: 100vh; */
+
+}
+
+.aboutus {
+  text-decoration: underline orange;
+  text-decoration-thickness: 12px;
+}
+
+.about {
+  background: #878787;
+background: linear-gradient(to top, #878787 0%, #000000 100%);
+color: white;
+}
+
+.logo:hover {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+
+
+.subtitle {
+  color: orange;
+}
+
+#section2 {
+  min-height: 80vh;
+  /* margin-top: px; */
+
+}
+
+#section3{
+  min-height: 80vh;
+  margin-top: -250px;
+}
+
+.landing {
   color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
+.nav {
+  height: 70px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navtitle {
+  font-size: 45px;
+}
+
+.services {
+  background: #874400;
+background: linear-gradient(to top, #874400 0%, #5C5C5C 100%);
+
 }
