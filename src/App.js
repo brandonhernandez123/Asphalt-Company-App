@@ -5,6 +5,7 @@ import Navigation from './components/navbar'
 import Landing from './components/Landing'
 import About from './components/About'
 import Services from './components/Services'
+import Gallery from './components/Gallery'
 
 function App() {
   return (
@@ -20,12 +21,12 @@ function App() {
         <Services />
       </div>
       <div id="section4">
-        <h1>Section 4</h1>
+        <Gallery />
       </div>
-      <div id="section4">
+      <div id="section5">
         <h1>Section 5</h1>
       </div>
-      <div id="section4">
+      <div id="section6">
         <h1>Section 6</h1>
       </div>
     </div>

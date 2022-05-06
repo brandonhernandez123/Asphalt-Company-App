@@ -39,10 +39,23 @@
   text-decoration-thickness: 12px;
 }
 
+.aboutus2 {
+  text-decoration: underline black;
+  text-decoration-thickness: 8px;
+}
+
 .about {
-  background: #878787;
-background: linear-gradient(to top, #878787 0%, #000000 100%);
+  /* background: #878787;
+background: linear-gradient(to top, #878787 0%, #000000 100%); */
+background-image: url(https://media.istockphoto.com/photos/mans-legs-on-newly-laid-asphalt-during-road-construction-picture-id469577715?k=20&m=469577715&s=612x612&w=0&h=BWxZw4hJG3zJm2XhTBrDrYq9PiIRQnbBk6yT4ec8cJo=);
+background-position: center;
+background-size: cover;
 color: white;
+}
+
+.abouttext {
+  
+  
 }
 
 .logo:hover {
@@ -58,15 +71,16 @@ color: white;
 
 #section2 {
   min-height: 80vh;
-  height: 500px !important;
+  /* height: 700px !important; */
   /* margin-top: px; */
 
 }
 
 #section3{
-  min-height: 300vh;
+  /* min-height: 300vh; */
   margin-top: -250px;
-  height: 1000px;
+  height: 700px;
+  /* margin-bottom: -600px; */
 }
 
 .landing {
@@ -85,17 +99,34 @@ color: white;
 .services {
   background: #FFB76B;
 background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%);
-margin-top: -250px;
+/* margin-top: -250px; */
+/* height: 800px; */
+/* margin-bottom: -800px !important; */
 
-
+}
+.about {
+  height: 600px;
 }
 
 .aboutimage {
   height: 300px;
   width: 500px;
+  margin-top: 100px;
+  margin-left: 20px;
 }
 
 .serviceimage {
-  height: 75%;
-  width: 75%;
+  height: 200px;
+  width: 200px;
+  border: solid black;
+}
+
+#section4 {
+  background: #FFB76B;
+background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%);
+/* margin-top: -1000px !important; */
+}
+
+#section5{
+  background-color: blue;
 }
