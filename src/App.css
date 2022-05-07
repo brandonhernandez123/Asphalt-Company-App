@@ -37,7 +37,7 @@
 
 .aboutus {
   text-decoration: underline orange;
-  text-decoration-thickness: 12px;
+  text-decoration-thickness: 11px;
 }
 
 .aboutus2 {
@@ -135,3 +135,10 @@ background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7
 .gallerylist {
   align-content: center !important;
 }
+
+/* .avatar {
+  height: 200px;
+  width: 300px;
+} */
+
+

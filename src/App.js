@@ -6,6 +6,7 @@ import Landing from './components/Landing'
 import About from './components/About'
 import Services from './components/Services'
 import Gallery from './components/Gallery'
+import Testimonials from './components/Testimonials'
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
         <Gallery />
       </div>
       <div id="section5">
-        <h1>Section 5</h1>
+        <Testimonials />
       </div>
       <div id="section6">
         <h1>Section 6</h1>
