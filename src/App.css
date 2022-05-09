@@ -129,11 +129,25 @@ background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7
 }
 
 #section5{
-  background-color: blue;
+  background-image: url(https://media.istockphoto.com/photos/construction-site-is-laying-new-asphalt-road-pavement-picture-id1196434198?k=20&m=1196434198&s=612x612&w=0&h=-xpvmCNXVdcnWNUgKRAoapVsQqfPLiHwwoQH6qSUGCQ=);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .gallerylist {
   align-content: center !important;
+}
+
+.review {
+  color: black;
+  width: 75%;
+  text-align: justify;
+}
+
+.owner {
+  text-decoration: solid black;
+  font-weight: bolder;
 }
 
 /* .avatar {
