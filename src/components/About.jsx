@@ -1,5 +1,5 @@
 import react from 'react'
-import {Container, Row, Col, Image, Stack} from 'react-bootstrap'
+import {Container, Row, Col, Button} from 'react-bootstrap'
 
 const About = () => {
     return(
@@ -7,27 +7,15 @@ const About = () => {
             <Container fluid>
   <Row>
 <Col fluid>
-  <Stack direction="horizontal" gap={3}>
-  <div>
-        <Image    className='aboutimage' fluid src='https://media.istockphoto.com/photos/mans-legs-on-newly-laid-asphalt-during-road-construction-picture-id469577715?k=20&m=469577715&s=612x612&w=0&h=BWxZw4hJG3zJm2XhTBrDrYq9PiIRQnbBk6yT4ec8cJo=' />
-
-
-  </div>
-  
-  <div>   
-      <h2 className='aboutus'>ABOUT US</h2>
-      <br/>
-  <p className='abouttext' >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pulvinar mattis nunc sed blandit. Lectus urna duis convallis convallis tellus id.</p>
-</div>
-  <div className="bg-light border">Third item</div>
-</Stack>
+ <h2 className='aboutus2'>ABOUT US</h2>
+ <p className='aboutp'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus elementum sagittis vitae et leo. Porta non pulvinar neque laoreet suspendisse. Tempus egestas sed sed risus. Egestas congue quisque egestas diam in arcu cursus euismod. Nulla porttitor massa id neque aliquam vestibulum morbi blandit cursus. Ante in nibh mauris cursus mattis molestie a iaculis at. Tellus cras adipiscing enim eu. Aenean vel elit scelerisque mauris pellentesque pulvinar. Netus et malesuada fames ac turpis egestas maecenas pharetra convallis. Est ullamcorper eget nulla facilisi etiam. Laoreet id donec ultrices tincidunt. Sapien nec sagittis aliquam malesuada bibendum.</p>
 
         
     </Col>
     
     <br/>
   </Row>
-  
+  <Button className='submit'>CONTACT US</Button>
 </Container>
         </div>
     )

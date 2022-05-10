@@ -40,6 +40,20 @@
   text-decoration-thickness: 11px;
 }
 
+
+.aboutp {
+  color: black;
+}
+
+@media only screen and (min-width: 800px) {
+ .aboutp {
+   width: 50%;
+   text-align: center !important;
+   margin-left: 500px;
+ }
+ 
+}
+
 .aboutus2 {
   text-decoration: underline black;
   text-decoration-thickness: 8px;
