@@ -30,7 +30,7 @@ export default function Gallery() {
   return (
       <div>
           <Container fluid>
-              <h1>OUR WORK</h1>
+              <h1 className='aboutus2'>OUR WORK</h1>
           <Row xs={1} md={2} className="g-4">
   {giglist.map((gig) => (
     <Col>

@@ -45,6 +45,21 @@
   text-decoration-thickness: 8px;
 }
 
+.aboutus2 {
+  text-decoration: underline black;
+  text-decoration-thickness: 5px;
+  color: white;
+}
+
+.contact-info{
+  padding-top: 100px;
+  color: white;
+}
+
+.getintouch {
+  padding-top: 80px;
+}
+
 
 
 .about {
@@ -166,13 +181,31 @@ background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7
 
 }
 
-.mb-3 {
-  padding: 30px 0 0 30px;
+.submit {
+  width: 200px !important;
+  height: 50px !important;
+  background-color: transparent !important;
+color: white !important;
+border-radius: 150px 150px 125px 125px  !important ;
+border-color: white !important;
 }
+.submit:hover{
+  background-color: white !important;
+  color: black !important;
+  border-color: black !important;
+  
+}
+
+.fill {
+  color: white;
+}
+
+
 
 @media only screen and (max-width: 576px) {
   #section5 {
    
     background-image: url(https://wallpaperaccess.com/full/2190035.jpg);
   }
+ 
 }
