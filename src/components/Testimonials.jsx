@@ -9,11 +9,11 @@ const Testimonials = () => {
     
     return(
         <div>
-            <Container className='angry-grid' fluid>
+            <Container  fluid>
                 <h1>TESTIMONIALS</h1>
                     <Row>
                         <Col>
-                        <Stack direction="horizontal" gap={3}>
+                        <Stack fluid direction="horizontal" gap={3}>
   <div>
   <Avatar
   alt="Remy Sharp"
@@ -29,7 +29,7 @@ const Testimonials = () => {
 </Stack>
     </Col>
     <Col>
-    <Stack direction="horizontal" gap={3}>
+    <Stack fluid direction="horizontal" gap={3}>
   <div>
   <Avatar
   alt="Remy Sharp"
@@ -50,7 +50,7 @@ const Testimonials = () => {
     <br/>
     <Row>
                         <Col>
-                        <Stack direction="horizontal" gap={3}>
+                        <Stack  fluid direction="horizontal" gap={3}>
   <div>
   <Avatar
   alt="Remy Sharp"
@@ -66,7 +66,7 @@ const Testimonials = () => {
 </Stack>
     </Col>
     <Col>
-    <Stack direction="horizontal" gap={3}>
+    <Stack fluid direction="horizontal" gap={3}>
   <div>
   <Avatar
   alt="Remy Sharp"
@@ -103,7 +103,7 @@ const Testimonials = () => {
 </Stack>
     </Col>
     <Col>
-    <Stack direction="horizontal" gap={3}>
+    <Stack  fluid direction="horizontal" gap={3}>
   <div>
   <Avatar
   alt="Remy Sharp"

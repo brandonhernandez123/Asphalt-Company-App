@@ -1,7 +1,8 @@
 .App {
   text-align: center;
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(https://thumbs.dreamstime.com/b/asphalt-road-backgrounds-yellow-dividing-lines-asphalt-background-directly-above-180950887.jpg);
-
+  /* background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(https://thumbs.dreamstime.com/b/asphalt-road-backgrounds-yellow-dividing-lines-asphalt-background-directly-above-180950887.jpg); */
+  background: #FFB76B;
+  background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%);
 }
 
 
@@ -14,7 +15,7 @@
   background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(https://thumbs.dreamstime.com/b/asphalt-road-backgrounds-yellow-dividing-lines-asphalt-background-directly-above-180950887.jpg);
   color: white !important;
   position: sticky top !important;
-  height: 100px !important;
+  height: 60px !important;
 
 }
 
@@ -52,6 +53,9 @@
    margin-left: 500px;
 
    margin-top: 50px;
+ }
+ .sticky-top {
+   height: 60px !important;
  }
  
 }
@@ -161,8 +165,8 @@ background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7
 }
 
 #section4 {
-  background: #FFB76B;
-background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%);
+  background: rgb(195,34,34);
+background: linear-gradient(0deg, rgba(195,34,34,1) 0%, rgba(253,187,45,1) 100%);
 /* margin-top: -1000px !important; */
 }
 
@@ -237,8 +241,20 @@ border-color: white !important;
       rgba(0, 0, 0, 0.5)
     ),url(https://wallpaperaccess.com/full/2190035.jpg);
   }
+
+  .nav {
+    height: 500px !important;
+
+  }
+  .review {
+    color: white;
+    height: 60vh !important;
+    text-align: justify;
+  }
  
 }
+
+
 
 .underline {
   text-decoration: underline solid white;
@@ -248,4 +264,5 @@ border-color: white !important;
   position: fixed !important;
   top: 0 !important;
   width: 100% !important;
+  /* height: 60px !important; */
 }
