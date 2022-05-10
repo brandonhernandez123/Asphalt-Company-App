@@ -36,7 +36,7 @@ export default function Gallery() {
     <Col>
       <Card>
         <Card.Img variant="top" src={gig.img} />
-        <Card.Body>
+        <Card.Body className='cardbody'>
           <Card.Title>{gig.title}</Card.Title>
           <Card.Text>
             {gig.description}

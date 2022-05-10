@@ -27,7 +27,7 @@
 }
 
 #section1 {
-  background-image: url(./images/asphalt.jpeg);
+  background-image:  url(./images/asphalt.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   
@@ -42,7 +42,7 @@
 
 
 .aboutp {
-  color: black;
+  color: white;
 }
 
 @media only screen and (min-width: 800px) {
@@ -50,6 +50,8 @@
    width: 50%;
    text-align: center !important;
    margin-left: 500px;
+
+   margin-top: 50px;
  }
  
 }
@@ -79,7 +81,10 @@
 .about {
   /* background: #878787;
 background: linear-gradient(to top, #878787 0%, #000000 100%); */
-background-image: url(https://copavementsolutions.com/wp-content/uploads/2021/05/asphalt-stabilization.jpg);
+background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),url(https://copavementsolutions.com/wp-content/uploads/2021/05/asphalt-stabilization.jpg);
 background-position: center;
 background-size: cover;
 opacity: 0.9;
@@ -162,7 +167,10 @@ background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7
 }
 
 #section5{
-  background-image: url(https://raffertypaving.net/files/2020/12/paving3.jpg);
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),url(https://raffertypaving.net/files/2020/12/paving3.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -214,12 +222,30 @@ border-color: white !important;
   color: white;
 }
 
+.cardbody {
+  background-color: black !important;
+  color: white !important;
+}
+
 
 
 @media only screen and (max-width: 576px) {
   #section5 {
    
-    background-image: url(https://wallpaperaccess.com/full/2190035.jpg);
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),url(https://wallpaperaccess.com/full/2190035.jpg);
   }
  
+}
+
+.underline {
+  text-decoration: underline solid white;
+}
+
+.sticky-top {
+  position: fixed !important;
+  top: 0 !important;
+  width: 100% !important;
 }

@@ -1,5 +1,7 @@
 import react from 'react'
 import {Container, Row, Col, Button} from 'react-bootstrap'
+import { Link } from 'react-scroll/modules'
+
 
 const About = () => {
     return(
@@ -15,7 +17,18 @@ const About = () => {
     
     <br/>
   </Row>
-  <Button className='submit'>CONTACT US</Button>
+ <Link
+          activeClass="active"
+          to="section6"
+         spy={true}
+         smooth={true}
+         offset={-100}
+         duration={200}>
+           <Button className='submit'>
+               CONTACT US
+          </Button>
+          
+          </Link>
 </Container>
         </div>
     )

@@ -92,6 +92,8 @@ console.log(toSend)
 <p className='fill'>info@email.com</p>
                 </Col>
             </Row>
+
+            
             </Container>
         </div>
     )
