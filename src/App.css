@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  /* background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(https://thumbs.dreamstime.com/b/asphalt-road-backgrounds-yellow-dividing-lines-asphalt-background-directly-above-180950887.jpg); */
   background: #FFB76B;
   background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%);
 }
@@ -32,7 +31,6 @@
   background-repeat: no-repeat;
   background-position: center;
   
-  /* min-height: 100vh; */
 
 }
 
@@ -81,8 +79,7 @@
 
 
 .about {
-  /* background: #878787;
-background: linear-gradient(to top, #878787 0%, #000000 100%); */
+
 background-image: linear-gradient(
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
@@ -110,18 +107,12 @@ color: white;
   color: orange;
 }
 
-#section2 {
-  /* min-height: 80vh; */
-  /* height: 700px !important; */
-  /* margin-top: px; */
 
-}
 
 #section3{
-  /* min-height: 300vh; */
-  /* margin-top: -250px; */
+ 
   height: -500px;
-  /* margin-bottom: -600px; */
+ 
 }
 
 .landing {
@@ -129,9 +120,7 @@ color: white;
 
 }
 
-/* .nav {
-  height: 70px;
-} */
+
 
 .navtitle {
   font-size: 45px;
@@ -140,9 +129,7 @@ color: white;
 .services {
   background: #FFB76B;
 background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%);
-/* margin-top: -250px; */
-/* height: 800px; */
-/* margin-bottom: -800px !important; */
+
 
 }
 .about {
@@ -165,7 +152,7 @@ background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7
 #section4 {
   background: rgb(195,34,34);
 background: linear-gradient(0deg, rgba(195,34,34,1) 0%, rgba(253,187,45,1) 100%);
-/* margin-top: -1000px !important; */
+
 }
 
 #section5{
@@ -194,10 +181,7 @@ background: linear-gradient(0deg, rgba(195,34,34,1) 0%, rgba(253,187,45,1) 100%)
   font-weight: bolder;
 }
 
-/* .avatar {
-  height: 200px;
-  width: 300px;
-} */
+
 
 #section6 {
   background: #FFB76B;
@@ -257,7 +241,7 @@ border-color: white !important;
   position: fixed !important;
   top: 0 !important;
   width: 100% !important;
-  /* height: 60px !important; */
+ 
 }
 
 .testimonialimage{

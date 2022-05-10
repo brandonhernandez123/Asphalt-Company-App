@@ -1,6 +1,5 @@
 import react from 'react'
-import {Row, Col, Container, Image, Figure, Stack} from 'react-bootstrap'
-import { Avatar } from '@mui/material'
+import {Row, Col, Container, Image} from 'react-bootstrap'
 
 
 
