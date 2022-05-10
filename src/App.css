@@ -54,9 +54,7 @@
 
    margin-top: 50px;
  }
- .sticky-top {
-   height: 60px !important;
- }
+
  
 }
 
@@ -131,9 +129,9 @@ color: white;
 
 }
 
-.nav {
+/* .nav {
   height: 70px;
-}
+} */
 
 .navtitle {
   font-size: 45px;
@@ -241,16 +239,11 @@ border-color: white !important;
       rgba(0, 0, 0, 0.5)
     ),url(https://wallpaperaccess.com/full/2190035.jpg);
   }
-
-  .nav {
-    height: 500px !important;
-
+  .logo {
+    padding-top: 50px;
   }
-  .review {
-    color: white;
-    height: 60vh !important;
-    text-align: justify;
-  }
+
+  
  
 }
 
@@ -265,4 +258,12 @@ border-color: white !important;
   top: 0 !important;
   width: 100% !important;
   /* height: 60px !important; */
+}
+
+.testimonialimage{
+  border-radius: 25px !important;
+}
+
+.chooseus {
+  list-style: none;
 }
