@@ -1,5 +1,6 @@
 import {react, useState} from 'react'
 import {Container, Row, Col, Button, Form, InputGroup, FormControl} from 'react-bootstrap'
+import {send} from 'emailjs-com'
 
 
 const Contact = () => {
@@ -7,14 +8,34 @@ const Contact = () => {
     let istate = {
         from_name: '',
         message: '',
+        from_email: ''
     }
 
-    const [newMessage, setNewMessage] = useState({
+    const [toSend, setToSend] = useState({
         from_name: '',
         to_name: 'brandoncinthia0621@gmail.com',
         message: '',
         from_email: ''
     })
+
+    const onSubmit = (e) => {
+            e.preventDefault()
+            send('service_3lffwgd', 'template_586g6jd', toSend, 'zzIfBPDQ2Dak-rmND')
+              .then((response) => {
+                console.log('SUCCESS!', response.status, response.text)
+                setToSend(istate)
+              })
+              .catch((err) => {
+                console.log('FAILED...', err)
+              })
+          }
+
+          const handleChange = (e) => {
+            setToSend({ ...toSend, [e.target.name]: e.target.value })
+          }
+
+
+console.log(toSend)
 
 
 
@@ -29,21 +50,21 @@ const Contact = () => {
                 <p className='fill'>Please fill out the form below to send us an email and we will get back to you as soon as possible.</p>
                 <br/>
                 <br/>
-                <Form>
+                <Form onSubmit={onSubmit}>
                     <Row className="mb-3">
                         <Form.Group as={Col} >
-                            <Form.Control type="text" placeholder="Name" />
+                            <Form.Control type="text" placeholder="Name" value={toSend.from_name} onChange={handleChange} name='from_name' />
                         </Form.Group>
 
                         <Form.Group as={Col} controlId="formGridEmail">
       
-                            <Form.Control type="email" placeholder="Email" />
+                            <Form.Control type="email" placeholder="Email" value={toSend.from_email} onChange={handleChange} name='from_email' />
                         </Form.Group>
             </Row>
 
                         <InputGroup size="lg">
     
-                        <FormControl aria-label="Large" aria-describedby="inputGroup-sizing-sm" className='mb-3' placeholder='Message' />
+                        <FormControl aria-label="Large" aria-describedby="inputGroup-sizing-sm" className='mb-3' placeholder='Message' name="message" value={toSend.message} onChange={handleChange} />
                         </InputGroup>
                             <br/>
                             <Button className='submit' type="submit">Submit</Button>
