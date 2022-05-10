@@ -267,3 +267,15 @@ border-color: white !important;
 .chooseus {
   list-style: none;
 }
+
+
+.brandon {
+  color: red;
+  text-decoration: wavy;
+}
+
+.footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
