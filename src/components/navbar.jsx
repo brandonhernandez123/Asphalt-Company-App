@@ -30,7 +30,7 @@ const Navigation = (props) => {
          smooth={true}
          offset={-100}
          duration={300}>
-          Features
+          ABOUT
           
           
           </Link> 
@@ -47,7 +47,7 @@ const Navigation = (props) => {
          duration={200}>
           
           
-          Services
+          SERVICES
           </Link>
 
 
@@ -62,11 +62,16 @@ const Navigation = (props) => {
          duration={200}>
           
           
-          Gallery
+          OUR WORK
           </Link>
+
+          
 
 
       </Nav.Link>
+
+
+     
       <Nav.Link className='navlink'>
 <Link
           activeClass="active"
@@ -77,12 +82,28 @@ const Navigation = (props) => {
          duration={200}>
           
           
-          Gallery
+          TESTIMONIALS
           </Link>
 
 
       </Nav.Link>
-    
+     <Nav.Link className='navlink'>
+<Link
+          activeClass="active"
+          to="section6"
+         spy={true}
+         smooth={true}
+         offset={-100}
+         duration={200}>
+          
+          
+          CONTACT
+          </Link>
+
+          
+
+
+      </Nav.Link>
     </Nav>
     <Nav>
       <Nav.Link className='navlink'>Gallery</Nav.Link>
