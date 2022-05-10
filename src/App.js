@@ -7,6 +7,7 @@ import About from './components/About'
 import Services from './components/Services'
 import Gallery from './components/Gallery'
 import Testimonials from './components/Testimonials'
+import Contact from './components/Contact'
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
         <Testimonials />
       </div>
       <div id="section6">
-        <h1>Section 6</h1>
+        <Contact />
       </div>
     </div>
   )
